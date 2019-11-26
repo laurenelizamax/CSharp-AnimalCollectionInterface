@@ -1,9 +1,9 @@
-namespace interfacePractices
+namespace AnimalCollectionInterface
 {
 
     public interface ISwimming
     {
-        int MaximumDepth { get; }
+        int MaximumDepth { get; set; }
         void Swim();
     }
 }

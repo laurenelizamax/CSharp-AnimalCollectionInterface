@@ -1,8 +1,8 @@
-namespace interfacePractices
+namespace AnimalCollectionInterface
 {
     public interface IWalking
     {
-        void Run();
-        void Walk();
+        int MaxWalkingSpeed { get; set; }
+        void WalkRun();
     }
 }

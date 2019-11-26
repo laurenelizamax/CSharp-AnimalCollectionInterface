@@ -1,17 +1,13 @@
 using System;
-namespace interfacePractices
+namespace AnimalCollectionInterface
 {
     public class Ant : IWalking
     {
-        public void Run()
+        public void WalkRun()
         {
-            Console.WriteLine("He's so fast");
+            Console.WriteLine("He's a scurries like a mouse.'");
         }
-        public void Walk()
-        {
-            Console.WriteLine("He's sneaky");
-
-        }
-
+        public int MaxWalkingSpeed { get; set; }
     }
+
 }
